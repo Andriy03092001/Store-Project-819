@@ -90,7 +90,7 @@ namespace Store.Controllers
 
                     if (statusRole != null)
                     {
-                        return RedirectToAction("Admin", "Home");
+                        return RedirectToAction("Index", "AdminPanel", new { area = "Admin" });
                     }
                     else
                     {
